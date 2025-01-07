@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+
+<VBox xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.poo.chatapp.presentation.ChatController"
+      spacing="10"
+      styleClass="chat-container"
+      fx:id="rootContainer">
+
+    <padding>
+        <Insets top="20" right="20" bottom="20" left="20"/>
+    </padding>
+
+    <Label fx:id="statusLabel"
+           text="Connecting to server..."
+           styleClass="status-label"/>
+
+    <TextArea fx:id="chatArea"
+              VBox.vgrow="ALWAYS"
+              editable="false"
+              wrapText="true"
+              styleClass="chat-area"/>
+
+    <HBox spacing="10" alignment="CENTER">
+        <TextField fx:id="messageField"
+                   HBox.hgrow="ALWAYS"
+                   promptText="Type your message..."
+                   styleClass="message-field"/>
+
+        <Button fx:id="sendButton"
+                text="Send"
+                styleClass="send-button"/>
+    </HBox>
+</VBox>

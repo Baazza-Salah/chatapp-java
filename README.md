@@ -7,20 +7,16 @@ This project is a simple chat application developed as part of a practical work 
 - **Client-Server Architecture**: The application consists of a client and a server that communicate over a network.
 - **Message Sending**: Users can send messages from the client to the server.
 - **Real-time Communication**: Messages are displayed in real-time in the chat area.
-- **Error Handling**: The application includes error handling for connection issues and null references.
-
+- 
 ## Technologies Used
 
 - **Java**: The primary programming language used for development.
-- **JavaFX**: Used for building the graphical user interface (GUI).
+- **JavaFX**: Used for building the graphical user interface (GUI) and managing input/output.
 - **Sockets**: Utilized for network communication between the client and server.
+- **Threads**: Implemented to handle multiple connections and improve responsiveness.
+
 
 ## Getting Started
-
-### Prerequisites
-
-- Java Development Kit (JDK) 11 or higher
-- Maven (for dependency management)
 
 ### Installation
 

@@ -41,11 +41,10 @@ mvn exec:java -Dexec.mainClass="com.poo.chatapp.Server"
 ```
 2.2. Start the client:
 ```
-
-    mvn exec:java -Dexec.mainClass="com.poo.chatapp.Client"
+mvn exec:java -Dexec.mainClass="com.poo.chatapp.Client"
 ```
 Usage
 
-    Enter the server address and port in the client application.
-    Type your message in the input field and press the send button to communicate with the server.
+Enter the server address and port in the client application.
+Type your message in the input field and press the send button to communicate with the server.
    

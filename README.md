@@ -25,8 +25,8 @@ This project is a simple chat application developed as part of a practical work 
 ### Installation
 
 1. Clone the repository:
-   ```
-   git clone https://github.com/[yourusername]/chat-app.git
+```
+git clone https://github.com/[yourusername]/chat-java.git
    ```
 Replace yourusername with your actual GitHub username.
 1. Navigate to the project directory:
